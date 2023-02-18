@@ -1,0 +1,13 @@
+1. Using own fonts
+   step1: Download font (.ttf)
+   step2: Extract and place it in project's root folder
+   step3: In CSS, type:
+   @font-face {
+   font-family: myFontName;
+   src: url("path/file_name.ttf");
+   }
+2. Figma web app for web design visualization
+3. Weather API 
+4. Using fetch() in node
+5. doenv module to hide API Key
+   $npm install dotenv
