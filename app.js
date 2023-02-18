@@ -6,8 +6,10 @@ require("dotenv").config();
 app.use(express.json());
 const db = new Datastore({ filename: "database.db", autoload: true });
 
-app.listen(3001);
-console.log("Listening to port 3001");
+const port = process.env.PORT;
+
+app.listen(port);
+console.log(`Listening to port ${port}`);
 
 app.use(express.static("root"));
 express.Router("/view");
