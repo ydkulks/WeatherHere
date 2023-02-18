@@ -31,10 +31,10 @@ This project is based on the original sample project [The Weather Here](https://
    - [Express](https://expressjs.com/)
    - [NeDB](https://github.com/louischatriot/nedb)
    - [Node fetch](https://www.npmjs.com/package/node-fetch)
-   - [Dotenv](https://www.npmjs.com/package/dotenv")
+   - [Dotenv](https://www.npmjs.com/package/dotenv)
 
 4. Rename `.env_sample` to `.env`
-5. Get your API key from [Weather API]("https://www.weatherapi.com/") and paste it in `.env file`
+5. Get your API key from [Weather API](https://www.weatherapi.com/) and paste it in `.env file`
 6. Run `app.js` file to start the server
 
 ```bash
